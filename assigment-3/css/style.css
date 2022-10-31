@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #DFF6FF;
+}
+.container{
+    max-width: 900px;
+    margin: 0 auto;
+}
+.is_box{
+    max-width: 600px;
+    padding: 20px;
+    background-color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.form_araclari{
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+}
+label{
+    color: #47B5FF;
+    font-size: 15px;
+    margin: 1rem 2px 4px;
+    display: flex;
+
+    justify-content: flex-start;
+}
+input,
+select,
+textarea{
+
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+input:focus{
+    outline-color: #DFF6FF;
+}
+.button_container{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+.button_container button{
+   padding: 10px;
+   width: 100px;
+   background: #47B5FF;
+   border: none;
+   border-radius: 1rem;
+   color: #DFF6FF;
+   cursor: pointer;
+}
+button:hover{
+    background: #93d4ff;
+    transition: 0.3s;
+    color: #151515;
+    
+}

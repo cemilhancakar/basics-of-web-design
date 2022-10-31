@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="is_box">
+            <h1>
+                İş Başvuru Ekranı
+            </h1>
+
+            <form action="" method="get">
+                <div class="form_container">
+                    <div class="form_araclari">
+                        <label for="isim">İsim: </label>
+                        <input name="isim" id="isim" placeholder="Lütfen İsminizi Giriniz" required>
+    
+                    </div>
+                    <div class="form_araclari">
+                        <label for="soy_isim">Soyad: </label>
+                        <input name="soy_isim" id="soy_isim" placeholder="Lütfen Soy isminizi Giriniz" required>
+                        
+                    </div>
+                    <div class="form_araclari">
+                        <label for="email">E-mail: </label>
+                        <input name="email" id="email" placeholder="Lütfen E-mailinizi Giriniz">
+                        
+                    </div>
+                    <div class="form_araclari">
+                        <label for="is_rolu">İş Rolünüz: </label>
+                        <select name="is_rolu" id="is_rolu" required>
+                            <option value="">İş Rolünüzü Seçin</option>
+                            <option value="React">React</option>
+                            <option value="Vue.js">Vue.js</option>
+                            <option value="React-Native">React-Native</option>
+                            <option value="Node.js">Node.js</option>
+                        </select>
+                    </div>
+                    <div class="form_araclari">
+                        <label for="adres">Adres: </label>
+                       
+                        <textarea name="adres" id="adres" cols="50" rows="4" placeholder="Adresinizi Giriniz" required></textarea>
+                    </div>
+                    <div class="form_araclari">
+                        <label for="sehir">Şehriniz: </label>
+                        <input name="sehir" id="sehir" placeholder="Lütfen Şehir Giriniz" required>
+                    </div>
+                    <div class="form_araclari">
+                        <label for="posta_kodu">Posta Kodunuz: </label>
+                        <input name="posta_kodu" id="posta_kodu" placeholder="Lütfen Posta Kodunuzu Giriniz" required>
+                    </div>
+                    <div class="form_araclari">
+                        <label for="tarih">Doğum Tarihiniz: </label>
+                        <input value="01-11-2022" type="date" id="tarih" name="tarih" required>
+                    </div>
+                    <div class="form_araclari">
+                        <label for="cv_yukle">CV Yükleyin: </label>
+                        <input type="file" id="cv_yukle" name="cv_yukle" required>
+                    </div>
+                    <div class="button_container">
+                        <button type="submit">Başvur</button>
+                    </div>
+    
+                </div>
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
